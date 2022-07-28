@@ -1,10 +1,6 @@
 from selene.support.shared import browser
 from selene import be, have
 
-from selenium import webdriver
-
-browser.config.driver = webdriver.Chrome()
-
 
 def test_search():
     browser.open('https://www.google.com/')
